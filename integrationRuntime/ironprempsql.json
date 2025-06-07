@@ -1,0 +1,6 @@
+{
+	"name": "ironprempsql",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
