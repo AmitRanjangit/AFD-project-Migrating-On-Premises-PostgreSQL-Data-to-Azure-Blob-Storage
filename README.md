@@ -62,8 +62,11 @@ This project demonstrates how to use Azure Data Factory (ADF) to migrate structu
 
 ## Output
 
-- The resulting files are saved in the specified Blob Storage container
-- Format: .txt, delimited, with all text fields quoted for consistency
+- The resulting files are saved in the specified Azure Blob Storage container.
+- Each file is saved with a `.txt` extension.
+- **Note**: Although the extension is `.txt`, the file content is in **CSV (Comma-Separated Values)** format, with all fields quoted for consistency.
+- This makes the output easy to open in Excel or process in downstream analytics tools.
+
 
 ## Related Files
 
